@@ -1,0 +1,178 @@
+body {
+  background-color: black;
+}
+
+/* Logo do blog*/
+.logo {
+  display: block;
+  margin-left: 30%;
+  margin-right: auto;
+  width: 50%;
+}
+
+ /* Menu de navegação blog */
+.topnav {
+  margin-top: 20px;
+  margin-left: 13%;
+  width: 75%;
+  background-color: #141414;
+  overflow: auto;
+  border: 1px solid rgb(29, 29, 29);
+}
+
+/* Links do menu de navegação */
+.topnav a {
+  float: left;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  width: 33.33%; /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
+  text-align: center; /* If you want the text to be centered */
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+ /* Efeito de seleção para o navegação */
+.topnav a:hover:not(.active) {
+  background-color: #242323;
+  color: white;
+}
+
+/* Efeito de selecionado para a navegação */
+.topnav a.active {
+  color: white;
+  background-color: #000000;
+}
+
+  /* Coluna da direita para as tags do blog */
+.colunadireita {
+  float: right;
+  width: auto;
+  height: auto;
+  margin-right: 13%;
+  margin-top: 3%;
+  margin-bottom: 50%;
+  color: white;
+  border: 2px solid rgb(29, 29, 29);
+}
+
+
+.colunadireita p {
+  margin: -1px;
+  display: block;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  padding-left: 13px;
+  padding-right: 56px;
+  border-bottom: 1px solid #000000;
+  border-top: 1px solid #222222;
+  background-color: #141414;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+/* Menu da coluna direita */
+#menutags {
+  list-style-type: none;
+  padding: 0;
+  margin: -1px;
+}
+
+/* Links do menu da coluna direita */
+#menutags li {
+  margin-top: 0px;
+  background-color: #000000;
+  font-size: 15px;
+  display: block;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  padding-left: 10px;
+  padding-right: 56px;
+  border-bottom: 1px solid #000000;
+  border-top: 1px solid #222222;
+  background-color: #141414;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+#menutags li a {
+  padding: 5px;
+  text-decoration: none;
+  color:#888888;
+  font-weight: normal;
+}
+
+/* Efeito de seleção do menu da coluna direita */
+#menutags li:hover:not(.header) {
+  background-color: #242323;
+}
+
+/* Posts do blog */
+.postsblog {
+  margin-bottom: 2%;
+  margin-left: 14%;
+  margin-right: 25%;
+  width: 50%;
+  height: 90%;
+  padding: 10px;
+  background-color: #141414;
+  color: white;
+  border: 1px solid rgb(29, 29, 29);
+  text-align: center;
+}
+
+
+/* Div do titulo do post */
+.titulopost {
+  margin-top: 3%;
+  margin-left: 14%;
+  margin-right: 25%;
+  width: 50%;
+  height: 5%;
+  padding: 10px;
+  background-color: #141414;
+  color: white;
+  border: 1px solid rgb(29, 29, 29);
+}
+
+/* Texto do titulo do post */
+.titulopost p {
+  text-align: center;
+  font-size: 25px;
+  margin-top: 2px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+
+/* Conteudo do post */
+.conteudoblog {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 17px;
+}
+
+/* Imagens do post */
+.postsblog img {
+  max-height: 500px;
+  max-width: 500px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+/* Tela do discord na pagina Discord */
+.discord {
+margin-left: 13%;
+margin-bottom: 20px;
+padding-top: 20px;
+}
+
+.embreve img {
+  margin-top: 20px;
+  display: block;
+  margin-left: 25%;
+  margin-right: auto;
+  width: 50%;
+  height: auto;
+}
