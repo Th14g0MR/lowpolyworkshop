@@ -48,7 +48,7 @@ body {
   /* Coluna da direita para as tags do blog */
 .colunadireita {
   float: right;
-  width: auto;
+  width: 270px;
   height: auto;
   margin-right: 13%;
   margin-top: 3%;
@@ -65,8 +65,8 @@ body {
   padding-bottom: 7px;
   padding-left: 13px;
   padding-right: 56px;
-  border-bottom: 1px solid #000000;
-  border-top: 1px solid #222222;
+  border-bottom: 2px solid #000000;
+  border-top: 0,5px solid #000000;
   background-color: #141414;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
@@ -96,11 +96,17 @@ body {
   font-weight: bold;
 }
 
+/*Links do menu da coluna direita*/
 #menutags li a {
   padding: 5px;
   text-decoration: none;
   color:#888888;
   font-weight: normal;
+}
+
+#menutags li #active {
+  color: white;
+  font-weight: bold;
 }
 
 /* Efeito de seleção do menu da coluna direita */
@@ -114,7 +120,20 @@ body {
   margin-left: 14%;
   margin-right: 25%;
   width: 50%;
-  height: 90%;
+  height: 85%;
+  padding: 10px;
+  background-color: #141414;
+  color: white;
+  border: 1px solid rgb(29, 29, 29);
+  text-align: center;
+}
+
+.postsblog2 {
+  margin-bottom: 2%;
+  margin-left: 14%;
+  margin-right: 25%;
+  width: 50%;
+  height: 110%;
   padding: 10px;
   background-color: #141414;
   color: white;
@@ -161,6 +180,13 @@ body {
   margin-bottom: 30px;
 }
 
+.postsblog2 img {
+  max-height: 500px;
+  max-width: 500px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
 /* Tela do discord na pagina Discord */
 .discord {
 margin-left: 13%;
@@ -168,11 +194,47 @@ margin-bottom: 20px;
 padding-top: 20px;
 }
 
-.embreve img {
-  margin-top: 20px;
+.front {
+  margin-top: 10%;
   display: block;
   margin-left: 25%;
   margin-right: auto;
   width: 50%;
   height: auto;
+  color: white;
 }
+
+.frontdetailsl {
+  float: left;
+  margin-top: 10%;
+  margin-left: 15%;
+  margin-right: auto;
+  margin-bottom: 10%;
+  width: 400px;
+  height: 200px;
+  color: white;
+  background-color: #242424;
+}
+
+.frontdetailsr {
+  float: right;
+  margin-top: 10%;
+  margin-left: auto;
+  margin-right: 15%;
+  margin-bottom: 10%;
+  width: 400px;
+  height: 200px;
+  color: white;
+  background-color: #242424;
+}
+
+.frontdetailsr h1 {
+ padding-left: 20px ;
+ padding-bottom: 40px;
+}
+
+.frontdetailsl h1 {
+ padding-left: 20px ;
+ padding-bottom: 40px;
+}
+
